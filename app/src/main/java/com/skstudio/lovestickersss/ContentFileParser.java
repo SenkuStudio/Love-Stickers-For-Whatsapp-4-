@@ -6,15 +6,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.text.TextUtils;
 import android.util.JsonReader;
 
 import androidx.annotation.NonNull;
 
-import com.skstudio.lovestickerss.Sticker;
-import com.skstudio.lovestickerss.StickerPack;
+import com.skstudio.lovestickersss.Sticker;
+import com.skstudio.lovestickersss.StickerPack;
 
 import java.io.IOException;
 import java.io.InputStream;

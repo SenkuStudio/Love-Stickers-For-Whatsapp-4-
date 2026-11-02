@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -833,7 +833,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     }
 
     private void contactUs() {
-        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "skstudio@example.com", null));
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "romance.stickermagic@gmail.com", null));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Support: " + getString(R.string.app_name));
         startActivity(Intent.createChooser(intent, "Send email..."));
     }
@@ -857,7 +857,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private void openPrivacyPolicy() {
         String url = getString(R.string.privacy_policy);
         if (!url.startsWith("http")) {
-            url = "https://skstudio.com/privacy-policy"; // Fallback or use real URL from strings
+            url = "https://stickermagic.romance/privacy-policy"; // Fallback or use real URL from strings
         }
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(intent);

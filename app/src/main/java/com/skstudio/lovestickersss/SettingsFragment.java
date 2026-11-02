@@ -1,4 +1,4 @@
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.content.Context;
 import android.content.Intent;
@@ -44,7 +44,7 @@ public class SettingsFragment extends Fragment {
         });
 
         view.findViewById(R.id.settings_request_sticker).setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "skstudio@example.com", null));
+            Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "romance.stickermagic@gmail.com", null));
             intent.putExtra(Intent.EXTRA_SUBJECT, "Sticker Request: " + getString(R.string.app_name));
             startActivity(Intent.createChooser(intent, "Send request..."));
         });
@@ -94,7 +94,7 @@ public class SettingsFragment extends Fragment {
     }
 
     private void contactUs() {
-        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "skstudio@example.com", null));
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "romance.stickermagic@gmail.com", null));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Support: " + getString(R.string.app_name));
         startActivity(Intent.createChooser(intent, "Send email..."));
     }

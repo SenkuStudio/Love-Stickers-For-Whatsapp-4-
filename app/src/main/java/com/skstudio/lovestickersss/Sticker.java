@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.os.Parcel;
 import android.os.Parcelable;

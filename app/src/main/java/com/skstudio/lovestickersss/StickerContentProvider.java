@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -25,7 +25,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.skstudio.lovestickerss.BuildConfig;
+import com.skstudio.lovestickersss.BuildConfig;
 
 import java.io.File;
 import java.io.IOException;

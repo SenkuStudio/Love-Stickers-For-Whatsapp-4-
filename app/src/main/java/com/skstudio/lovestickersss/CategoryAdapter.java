@@ -1,4 +1,4 @@
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.view.LayoutInflater;
 import android.view.View;

@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,7 +18,7 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.skstudio.lovestickerss.utils.StickerExportHelper;
+import com.skstudio.lovestickersss.utils.StickerExportHelper;
 
 import androidx.annotation.NonNull;
 
@@ -38,21 +38,21 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import static com.skstudio.lovestickerss.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.ANIMATED_STICKER_PACK;
-import static com.skstudio.lovestickerss.StickerContentProvider.AVOID_CACHE;
-import static com.skstudio.lovestickerss.StickerContentProvider.IMAGE_DATA_VERSION;
-import static com.skstudio.lovestickerss.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
-import static com.skstudio.lovestickerss.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
-import static com.skstudio.lovestickerss.StickerContentProvider.PUBLISHER_EMAIL;
-import static com.skstudio.lovestickerss.StickerContentProvider.PUBLISHER_WEBSITE;
-import static com.skstudio.lovestickerss.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
-import static com.skstudio.lovestickerss.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.ANIMATED_STICKER_PACK;
+import static com.skstudio.lovestickersss.StickerContentProvider.AVOID_CACHE;
+import static com.skstudio.lovestickersss.StickerContentProvider.IMAGE_DATA_VERSION;
+import static com.skstudio.lovestickersss.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
+import static com.skstudio.lovestickersss.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
+import static com.skstudio.lovestickersss.StickerContentProvider.PUBLISHER_EMAIL;
+import static com.skstudio.lovestickersss.StickerContentProvider.PUBLISHER_WEBSITE;
+import static com.skstudio.lovestickersss.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
+import static com.skstudio.lovestickersss.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
 
 class StickerPackLoader {
 
@@ -151,10 +151,10 @@ class StickerPackLoader {
                         pack = new StickerPack(
                                 packId,
                                 categoryName + (packIndex > 1 ? " " + packIndex : ""),
-                                "SK Studio",
+                                "Romance Magic",
                                 "tray_icon.webp",
                                 item.getString("thumb_url"),
-                                "skstudio@example.com",
+                                "romance.stickermagic@gmail.com",
                                 "https://senkustudio.com",
                                 "https://senkustudio.com/privacy",
                                 "https://senkustudio.com/license",

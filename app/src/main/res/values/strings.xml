@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
-    <string name="app_name" translatable="false">Love Stickers for WA 2026</string>
+    <string name="app_name" translatable="false">Romance Sticker Magic</string>
     <!-- Content description for the sticker pack tray image -->
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
@@ -42,29 +42,29 @@
     <string name="sticker_pack_animation_indicator" tools:ignore="MissingTranslation">Animated sticker pack</string>
     <!-- text we display at the end of sticker pack details page showing that users can tap sticker to see bigger version -->
     <string name="sticker_pack_details_tap_to_preview" tools:ignore="MissingTranslation">Tap to preview sticker</string>
-    <string name="admob_app_id" translatable="false">ca-app-pub-6979979912689100~7678532583</string>
-    <string name="admob_app_open_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/3282162001</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-6979979912689100~6152362767</string>
+    <string name="admob_app_open_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/7437524276</string>
 
     <!-- Banner IDs -->
-    <string name="admob_banner_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/2057531081</string>
-    <string name="admob_banner_ad_unit_id_list" translatable="false">ca-app-pub-6979979912689100/6797726028</string>
-    <string name="admob_banner_ad_unit_id_details" translatable="false">ca-app-pub-6979979912689100/1776499484</string>
-    <string name="admob_banner_ad_unit_id_info" translatable="false">ca-app-pub-6979979912689100/6483040415</string>
-    <string name="admob_banner_ad_unit_id_onboarding" translatable="false">ca-app-pub-6979979912689100/6689914811</string>
-    <string name="admob_banner_ad_unit_id_backup" translatable="false">ca-app-pub-6979979912689100/1230713735</string>
+    <string name="admob_banner_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/7082301057</string>
+    <string name="admob_banner_ad_unit_id_list" translatable="false">ca-app-pub-6979979912689100/9918337052</string>
+    <string name="admob_banner_ad_unit_id_details" translatable="false">ca-app-pub-6979979912689100/2895644038</string>
+    <string name="admob_banner_ad_unit_id_info" translatable="false">ca-app-pub-6979979912689100/6643317355</string>
+    <string name="admob_banner_ad_unit_id_onboarding" translatable="false">ca-app-pub-6979979912689100/4017154011</string>
+    <string name="admob_banner_ad_unit_id_backup" translatable="false">ca-app-pub-6979979912689100/3498279264</string>
 
     <!-- Interstitial IDs -->
-    <string name="admob_interstitial_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/3581544909</string>
-    <string name="admob_interstitial_ad_unit_id_info" translatable="false">ca-app-pub-6979979912689100/8534488685</string>
+    <string name="admob_interstitial_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/3825582320</string>
+    <string name="admob_interstitial_ad_unit_id_info" translatable="false">ca-app-pub-6979979912689100/1199418984</string>
 
     <!-- Native IDs -->
-    <string name="admob_native_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/5811947412</string>
-    <string name="admob_native_ad_unit_id_settings" translatable="false">ca-app-pub-6979979912689100/9800213755</string>
-    <string name="admob_native_ad_unit_id_list" translatable="false">ca-app-pub-6979979912689100/1353827655</string>
+    <string name="admob_native_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/9520762133</string>
+    <string name="admob_native_ad_unit_id_settings" translatable="false">ca-app-pub-6979979912689100/7381683955</string>
+    <string name="admob_native_ad_unit_id_list" translatable="false">ca-app-pub-6979979912689100/2185197592</string>
 
     <!-- Rewarded IDs -->
-    <string name="admob_rewarded_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/7748765489</string>
-    <string name="admob_rewarded_ad_unit_id_backup" translatable="false">ca-app-pub-6979979912689100/4758895208</string>
+    <string name="admob_rewarded_ad_unit_id" translatable="false">ca-app-pub-6979979912689100/7190112267</string>
+    <string name="admob_rewarded_ad_unit_id_backup" translatable="false">ca-app-pub-6979979912689100/3250867258</string>
 
     <!-- Drawer strings -->
     <string name="nav_share">Share App</string>

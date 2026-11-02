@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.skstudio.lovestickerss;
+package com.skstudio.lovestickersss;
 
 import android.app.Application;
 import android.content.Context;
@@ -47,7 +47,7 @@ public class StickerApplication extends Application {
 
         DiskCacheConfig diskCacheConfig = DiskCacheConfig.newBuilder(this)
                 .setBaseDirectoryPath(getCacheDir())
-                .setBaseDirectoryName("sticker_cache")
+                .setBaseDirectoryName("magic_sticker_cache")
                 .setMaxCacheSize(100 * ByteConstants.MB)
                 .setMaxCacheSizeOnLowDiskSpace(20 * ByteConstants.MB)
                 .setMaxCacheSizeOnVeryLowDiskSpace(10 * ByteConstants.MB)
